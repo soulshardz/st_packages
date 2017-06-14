@@ -1,0 +1,6 @@
+{
+	"body_only": true,
+	"output_request": false,
+	"output_response_body": false,
+	"response_commands": []
+}

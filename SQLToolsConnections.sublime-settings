@@ -1,0 +1,30 @@
+{
+  "connections": {
+    "ldev-db": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },"spocosy-db": {
+      "type"    : "mysql",
+      "host"    : "spocosydb.enetpulse.com",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },"livescore-db": {
+      "type"    : "mysql",
+      "host"    : "79.125.116.239",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+  },
+  "default": null
+}

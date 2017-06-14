@@ -1,0 +1,5 @@
+{
+	"show_result_on_window" : true,
+	"history_size"          : 1000,
+	"show_query"            : true
+}

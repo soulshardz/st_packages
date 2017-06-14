@@ -5,8 +5,19 @@
 	],
 	"installed_packages":
 	[
+		"ColorPicker",
+		"DiffTabs",
+		"Gist",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"JSON Reindent",
 		"Mercurial",
 		"Modific",
+		"Package Control",
+		"RESTer HTTP Client",
+		"SQLTools",
+		"SublimeLinter",
+		"SublimeLinter-phplint",
 		"SVN"
 	]
 }

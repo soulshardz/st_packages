@@ -1,4 +1,6 @@
 {
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
+	"font_face": "Terminus",
 	"ignored_packages":
 	[
 		"Vintage"
