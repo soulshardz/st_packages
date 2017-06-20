@@ -1,5 +1,7 @@
 {
 	"show_result_on_window" : true,
 	"history_size"          : 1000,
-	"show_query"            : true
+	"expand_to_paragraph"   : true,
+	"show_query"            : true,
+	"user_streams"          : true
 }
