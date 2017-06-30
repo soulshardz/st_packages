@@ -3,5 +3,6 @@
 	"history_size"          : 1000,
 	"expand_to_paragraph"   : true,
 	"show_query"            : true,
+	"thread_timeout"        : 45,     // query timeout in seconds
 	"user_streams"          : true
 }

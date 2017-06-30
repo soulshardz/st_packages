@@ -1,2 +1,5 @@
 {
+  "eventfullid": "SELECT s.name,\n       tt.name,\n       t.name,\n       ts.name,\n       e.*\nFROM event AS e\nINNER JOIN tournament_stage AS ts ON e.tournament_stageFK = ts.id\nINNER JOIN tournament AS t ON ts.tournamentFK = t.id\nINNER JOIN tournament_template AS tt ON t.tournament_templateFK = tt.id\nINNER JOIN sport AS s ON tt.sportFK = s.id\nWHERE e.id = 2420173\n    AND e.del = \"no\"\n    AND ts.del = \"no\"\n    AND t.del = \"no\"\n    AND tt.del = \"no\"\n    AND s.del = \"no\"",
+  "eventid": "SELECT * FROM event WHERE id = 2420173",
+  "participantid": "SELECT * FROM participant WHERE id = 12333"
 }

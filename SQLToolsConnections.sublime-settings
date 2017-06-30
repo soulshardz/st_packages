@@ -8,7 +8,35 @@
       "username": "spocosy_dev",
       "password": "spocosy_dev",
       "encoding": "utf-8"
-    },"spocosy-db": {
+    },
+    "ldev-odds": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "spocosyodds",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-odds": {
+      "type"    : "mysql",
+      "host"    : "spocosyoddsdb.enetpulse.com",
+      "port"    :  3306,
+      "database": "spocosyodds",
+      "username": "spocosy",
+      "password": "aiga8Th",
+      "encoding": "utf-8"
+    },
+    "sts-db": {
+      "type"    : "mysql",
+      "host"    : "34.249.90.6",
+      "port"    :  3306,
+      "database": "st_system",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-db": {
       "type"    : "mysql",
       "host"    : "spocosydb.enetpulse.com",
       "port"    :  3306,
@@ -16,11 +44,30 @@
       "username": "spocosy_dev",
       "password": "spocosy_dev",
       "encoding": "utf-8"
-    },"livescore-db": {
+    },
+    "livescore-db": {
       "type"    : "mysql",
       "host"    : "79.125.116.239",
       "port"    :  3306,
       "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-log": {
+      "type"    : "mysql",
+      "host"    : "54.74.52.106",
+      "port"    :  3306,
+      "database": "SpoCoSyLog",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-log-dev": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "SpoCoSyLog",
       "username": "spocosy_dev",
       "password": "spocosy_dev",
       "encoding": "utf-8"
