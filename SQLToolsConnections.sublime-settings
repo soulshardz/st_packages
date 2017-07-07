@@ -58,7 +58,7 @@
       "type"    : "mysql",
       "host"    : "54.74.52.106",
       "port"    :  3306,
-      "database": "SpoCoSyLog",
+      "database": "SpoCoSy",
       "username": "spocosy_dev",
       "password": "spocosy_dev",
       "encoding": "utf-8"
