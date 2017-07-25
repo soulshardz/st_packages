@@ -2,5 +2,6 @@
     { "keys": ["ctrl+alt+l"], "command": "sublimelinter_show_all_errors" },
     { "keys": ["ctrl+k", "ctrl+r"], "command": "reveal_in_side_bar" },
     { "keys": ["super+p"], "command": "prompt_select_workspace" },
-    { "keys": ["ctrl+shift+,"], "command": "expand_selection_to_paragraph" }
+    { "keys": ["ctrl+shift+,"], "command": "expand_selection_to_paragraph" },
+    { "keys": ["ctrl+shift+l"], "command": "shell_exec_open" }
 ]

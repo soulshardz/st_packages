@@ -45,6 +45,15 @@
       "password": "spocosy_dev",
       "encoding": "utf-8"
     },
+    "spocosy-select-db": {
+      "type"    : "mysql",
+      "host"    : "54.195.178.104",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
     "livescore-db": {
       "type"    : "mysql",
       "host"    : "79.125.116.239",
@@ -70,6 +79,24 @@
       "database": "SpoCoSyLog",
       "username": "spocosy_dev",
       "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "eapilog-db-demo": {
+      "type"    : "mysql",
+      "host"    : "54.171.46.246",
+      "port"    :  3306,
+      "database": "eapiDemoLog",
+      "username": "eapiLogUser",
+      "password": "eapiL0gP1ss",
+      "encoding": "utf-8"
+    },
+    "eapilog-db-live": {
+      "type"    : "mysql",
+      "host"    : "54.171.46.246",
+      "port"    :  3306,
+      "database": "eapiLog",
+      "username": "eapiLogUser",
+      "password": "eapiL0gP1ss",
       "encoding": "utf-8"
     },
   },
