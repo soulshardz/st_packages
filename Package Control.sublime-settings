@@ -2,9 +2,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"HTML-CSS-JS Prettify"
 	],
 	"installed_packages":
 	[
+		"Alphpetize",
 		"ColorPicker",
 		"DiffTabs",
 		"DocBlockr",
@@ -19,6 +21,7 @@
 		"Mercurial for Sublime",
 		"Modific",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pretty JSON",
 		"RESTer HTTP Client",
 		"Shell Exec",

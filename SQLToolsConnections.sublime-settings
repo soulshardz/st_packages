@@ -63,6 +63,15 @@
       "password": "spocosy_dev",
       "encoding": "utf-8"
     },
+    "livescore-db-xmlstore": {
+      "type"    : "mysql",
+      "host"    : "79.125.116.239",
+      "port"    :  3306,
+      "database": "xmlstore",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
     "spocosy-log": {
       "type"    : "mysql",
       "host"    : "54.74.52.106",
