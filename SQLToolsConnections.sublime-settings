@@ -108,6 +108,15 @@
       "password": "eapiL0gP1ss",
       "encoding": "utf-8"
     },
+    "scrapers": {
+      "type"    : "mysql",
+      "host"    : "79.125.10.241",
+      "port"    :  3306,
+      "database": "spocosyscrapers",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
   },
   "default": null
 }
