@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+echo PHP_EOL . "AT: " . __FILE__ . " @ " .__LINE__ . "\nvar: [<pre>" .PHP_EOL . $SELECTION$1 . PHP_EOL . " </pre>]" . PHP_EOL; ${2:exit();}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>eee</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

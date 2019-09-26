@@ -1,5 +1,6 @@
 [
-    { "keys": ["ctrl+alt+l"], "command": "sublimelinter_show_all_errors" },
+    { "keys": ["ctrl+alt+l"], "command": "sublime_linter_panel_toggle" },
+    { "keys": ["ctrl+alt+r"], "command": "sublime_linter_line_report" },
     { "keys": ["ctrl+k", "ctrl+r"], "command": "reveal_in_side_bar" },
     { "keys": ["super+p"], "command": "prompt_select_workspace" },
     { "keys": ["ctrl+shift+,"], "command": "expand_selection_to_paragraph" },
@@ -19,5 +20,22 @@
 	    "title": "PHP Doc",
 	    "format": "ssh mdev '${region}'"
 	 }
-	}
+	},
+	{ "keys": ["alt+shift+r"], "command": "goto_symbol_in_project" },
+	{ "keys": ["alt+shift+down"], "command": "select_lines", "args":{"forward": true} },
+	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+k", "ctrl+x"], 
+  							"command": "insert_snippet", 
+  							"args": { "name": "Packages/User/echo-extended.sublime-snippet" } },
+	{ "keys": ["ctrl+k", "ctrl+c"], 
+  							"command": "insert_snippet", 
+  							"args": { "name": "Packages/User/var-dump-extended.sublime-snippet" } },
+	{ "keys": ["ctrl+k", "ctrl+v"], 
+  							"command": "insert_snippet", 
+  							"args": { "name": "Packages/User/debug-var-dump.sublime-snippet" } },
+	{ "keys": ["ctrl+k", "ctrl+o"], 
+  							"command": "insert_snippet", 
+  							"args": { "name": "Packages/User/console-log.sublime-snippet" } },
+	{ "keys": ["ctrl+alt+c"], "command": "show_original_part" },
+	{ "keys": ["ctrl+alt+r"], "command": "replace_modified_part" }    
 ]

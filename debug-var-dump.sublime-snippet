@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+if( ${1:\$this->_isDebugEnabled} ) {
+	# #DEBUG
+	echo PHP_EOL . '[ $TM_FILEPATH:$TM_LINE_NUMBER ] $SELECTION$2: ' . PHP_EOL;
+	var_dump($SELECTION$3);${4: exit();}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vdd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

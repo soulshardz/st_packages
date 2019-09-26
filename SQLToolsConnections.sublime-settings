@@ -9,11 +9,146 @@
       "password": "spocosy_dev",
       "encoding": "utf-8"
     },
+    "ldev-coverage": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "coverage",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-telepulse": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "Telepulse",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-sites": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "sites",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
     "ldev-odds": {
       "type"    : "mysql",
       "host"    : "ldev.enetpulse.com",
       "port"    :  3306,
       "database": "spocosyodds",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "oddslive-odds_import_2": {
+      "type"    : "mysql",
+      "host"    : "34.244.13.127",
+      "port"    :  3306,
+      "database": "odds_import_2",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },   
+    "oddslive-odds_import_3": {
+      "type"    : "mysql",
+      "host"    : "oddsimportdb3.corcq4nge48g.eu-west-1.rds.amazonaws.com",
+      "port"    :  3306,
+      "database": "odds_import_3",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },   
+    "oddslive-odds_import_4": {
+      "type"    : "mysql",
+      "host"    : "oddsimportdb4.corcq4nge48g.eu-west-1.rds.amazonaws.com",
+      "port"    :  3306,
+      "database": "odds_import_4",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },   
+    "oddslive-odds_import_1": {
+      "type"    : "mysql",
+      "host"    : "79.125.10.241",
+      "port"    :  3306,
+      "database": "odds_import_1",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },   
+    "oddsdev-oddsmain": {
+      "type"    : "mysql",
+      "host"    : "oddsdev.enetpulse.com",
+      "port"    :  3306,
+      "database": "odds_main",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-oddsmain": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "odds_main",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-oddsmain-log": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "odds_main_log",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-odds-import_1": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "odds_import_1",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-odds-import_2": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "odds_import_2",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-liveodds": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "spocosyliveodds",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "liveodds": {
+      "type"    : "mysql",
+      "host"    : "34.253.231.232",
+      "port"    :  3306,
+      "database": "spocosyliveodds",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "ldev-odds-tx": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "SpoCoSyOdds_TX",
       "username": "spocosy_dev",
       "password": "spocosy_dev",
       "encoding": "utf-8"
@@ -25,6 +160,33 @@
       "database": "spocosyodds",
       "username": "spocosy",
       "password": "aiga8Th",
+      "encoding": "utf-8"
+    },
+    "odds-select": {
+      "type"    : "mysql",
+      "host"    : "34.253.200.157",
+      "port"    :  3306,
+      "database": "spocosyodds",
+      "username": "spocosy",
+      "password": "aiga8Th",
+      "encoding": "utf-8"
+    },
+    "odds-select-tmp": {
+      "type"    : "mysql",
+      "host"    : "52.213.122.137",
+      "port"    :  3306,
+      "database": "spocosyodds",
+      "username": "spocosy",
+      "password": "aiga8Th",
+      "encoding": "utf-8"
+    },
+    "odds-import": {
+      "type"    : "mysql",
+      "host"    : "34.245.120.92",
+      "port"    :  3306,
+      "database": "spocosyodds_import",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
       "encoding": "utf-8"
     },
     "sts-db": {
@@ -47,7 +209,34 @@
     },
     "spocosy-select-db": {
       "type"    : "mysql",
-      "host"    : "54.195.178.104",
+      "host"    : "63.35.220.79",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-select-db2": {
+      "type"    : "mysql",
+      "host"    : "54.229.238.224",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-select-db3": {
+      "type"    : "mysql",
+      "host"    : "54.155.216.167",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "spocosy-select-db3-new": {
+      "type"    : "mysql",
+      "host"    : "34.254.239.229",
       "port"    :  3306,
       "database": "SpoCoSy",
       "username": "spocosy_dev",
@@ -63,6 +252,33 @@
       "password": "spocosy_dev",
       "encoding": "utf-8"
     },
+    "livescore-db-simplog": {
+      "type"    : "mysql",
+      "host"    : "79.125.116.239",
+      "port"    :  3306,
+      "database": "SimpLog",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "workplan-db": {
+      "type"    : "mysql",
+      "host"    : "54.247.98.129",
+      "port"    :  3306,
+      "database": "workplan",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "livescore-db-enetpulse": {
+      "type"    : "mysql",
+      "host"    : "79.125.116.239",
+      "port"    :  3306,
+      "database": "enetpulse",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
     "livescore-db-xmlstore": {
       "type"    : "mysql",
       "host"    : "79.125.116.239",
@@ -72,9 +288,27 @@
       "password": "spocosy_dev",
       "encoding": "utf-8"
     },
+    "livescore-db-support-osticket": {
+      "type"    : "mysql",
+      "host"    : "79.125.116.239",
+      "port"    :  3306,
+      "database": "support",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "livescore-db-xmlstore-test": {
+      "type"    : "mysql",
+      "host"    : "79.125.116.239",
+      "port"    :  3306,
+      "database": "xmlstore_test",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
     "spocosy-log": {
       "type"    : "mysql",
-      "host"    : "54.74.52.106",
+      "host"    : "54.216.223.129",
       "port"    :  3306,
       "database": "SpoCoSy",
       "username": "spocosy_dev",
@@ -101,11 +335,20 @@
     },
     "eapilog-db-live": {
       "type"    : "mysql",
-      "host"    : "54.171.46.246",
+      "host"    : "34.245.74.122",
       "port"    :  3306,
       "database": "eapiLog",
       "username": "eapiLogUser",
       "password": "eapiL0gP1ss",
+      "encoding": "utf-8"
+    },
+    "eapilog-db-dev": {
+      "type"    : "mysql",
+      "host"    : "ldev.enetpulse.com",
+      "port"    :  3306,
+      "database": "eapiLog",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
       "encoding": "utf-8"
     },
     "scrapers": {
@@ -117,6 +360,105 @@
       "password": "spocosy_dev",
       "encoding": "utf-8"
     },
+    "scrapers_test": {
+      "type"    : "mysql",
+      "host"    : "79.125.10.241",
+      "port"    :  3306,
+      "database": "spocosyscraperstest",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "wff-db-liveodds": {
+      "type"    : "mysql",
+      "host"    : "52.211.60.200",
+      "port"    :  3306,
+      "database": "spocosyliveodds",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "wff-db-spocosydb": {
+      "type"    : "mysql",
+      "host"    : "52.215.86.244",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "wff-db-spocosyoddsdb": {
+      "type"    : "mysql",
+      "host"    : "52.17.5.29",
+      "port"    :  3306,
+      "database": "spocosyodds",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "minisitex": {
+      "type"    : "mysql",
+      "host"    : "minisitex-db.corcq4nge48g.eu-west-1.rds.amazonaws.com",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "minisitex-read": {
+      "type"    : "mysql",
+      "host"    : "minisitex-read-db.corcq4nge48g.eu-west-1.rds.amazonaws.com",
+      "port"    :  3306,
+      "database": "SpoCoSy",
+      "username": "minisitex_root",
+      "password": "uya1Udoop",
+      "encoding": "utf-8"
+    },
+    "dsdev1": {
+      "type"    : "mysql",
+      "host"    : "54.247.66.111",
+      "port"    :  3306,
+      "database": "spocosyodds1",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "stats-db-project": {
+      "type"    : "mysql",
+      "host"    : "34.244.215.166",
+      "port"    :  3306,
+      "database": "project",
+      "username": "spocosy_dev",
+      "password": "spocosy_dev",
+      "encoding": "utf-8"
+    },
+    "esites-live": {
+      "type"    : "mysql",
+      "host"    : "52.31.122.204",
+      "port"    :  3306,
+      "database": "esite",
+      "username": "esitedb_user",
+      "password": "2v8SHd8yA",
+      "encoding": "utf-8"
+    },
+    "esites-wp-live": {
+      "type"    : "mysql",
+      "host"    : "52.31.122.204",
+      "port"    :  3306,
+      "database": "a1admin",
+      "username": "a1adminusr",
+      "password": "3412xadca",
+      "encoding": "utf-8"
+    },
+    "hapi": {
+      "type"    : "mysql",
+      "host"    : "hapi.enetpulse.com",
+      "port"    :  3306,
+      "database": "enetpulse",
+      "username": "huawei",
+      "password": "54z6Y7rSHeaWuNyL",
+      "encoding": "utf-8"
+    }
   },
   "default": null
 }
